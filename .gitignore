@@ -14,3 +14,7 @@ buildNumber.properties
 /mvnw
 /.mvn/
 /.idea/
+/package-lock.json
+/src/main/resources/static/built/
+/node/
+/node_modules/
