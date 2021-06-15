@@ -21,5 +21,11 @@ public class DatabaseLoader implements CommandLineRunner {
         this.repository.save(new EmployeeEntity("Juan","Montero","Developer"));
         this.repository.save(new EmployeeEntity("Carlos","Santiago","Contador"));
         this.repository.save(new EmployeeEntity("Majo","Santiago","Profesor"));
+        this.repository.save(new EmployeeEntity("Frodo", "Baggins", "ring bearer"));
+        this.repository.save(new EmployeeEntity("Bilbo", "Baggins", "burglar"));
+        this.repository.save(new EmployeeEntity("Gandalf", "the Grey", "wizard"));
+        this.repository.save(new EmployeeEntity("Samwise", "Gamgee", "gardener"));
+        this.repository.save(new EmployeeEntity("Meriadoc", "Brandybuck", "pony rider"));
+        this.repository.save(new EmployeeEntity("Peregrin", "Took", "pipe smoker"));
     }
 }
